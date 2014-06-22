@@ -27,6 +27,8 @@ How to use this script:
 Open the run_analysis.R script in R. Select the complete file and run it.
 The run_analysis.R will create 2 files: tidy.txt & tidy.mean.txt.
 
+The exact steps of the file : run_analysis.r are described within the scriptfile.
+
 My system settings:
 
 Linux x86_64
