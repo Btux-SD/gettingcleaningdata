@@ -1,0 +1,37 @@
+Codebook:
+
+Using the files wich are present in the zip file: "UCI HAR Dataset" we create the following datasets.
+See the README file for more information regarding the working of the script.
+
+Tidy dataset:
+
+Here i describe the dataset: "Tidy_Mean" with 61 columns.The script "run_analysis" creates this file.
+
+"Subject","Time.BodyAcc.Mean.X","Time.BodyAcc.Mean.Y","Time.BodyAcc.Mean.Z","Time.BodyAcc.Std.X","Time.BodyAcc.Std.Y","Time.BodyAcc.Std.Z",
+"tGravityAcc.Mean.X","tGravityAcc.Mean.Y","tGravityAcc.Mean.Z","tGravityAcc.Std.X","tGravityAcc.Std.Y","tGravityAcc.Std.Z",
+"Time.BodyAccJerk.Mean.X","Time.BodyAccJerk.Mean.Y","Time.BodyAccJerk.Mean.Z","Time.BodyAccJerk.Std.X","Time.BodyAccJerk.Std.Y",
+"Time.BodyAccJerk.Std.Z","Time.BodyGyro.Mean.X","Time.BodyGyro.Mean.Y","Time.BodyGyro.Mean.Z","Time.BodyGyro.Std.X","Time.BodyGyro.Std.Y",
+"Time.BodyGyro.Std.Z","Time.BodyGyroJerk.Mean.X","Time.BodyGyroJerk.Mean.Y","Time.BodyGyroJerk.Mean.Z","Time.BodyGyroJerk.Std.X",
+"Time.BodyGyroJerk.Std.Y","Time.BodyGyroJerk.Std.Z","Time.BodyAccMag.Mean","Time.BodyAccMag.Std","tGravityAccMag.Mean","tGravityAccMag.Std",
+"Time.BodyAccJerkMag.Mean","Time.BodyAccJerkMag.Std","Time.BodyGyroMag.Mean","Time.BodyGyroMag.Std","Time.BodyGyroJerkMag.Mean",
+"Time.BodyGyroJerkMag.Std","FFT.BodyAcc.Mean.X","FFT.BodyAcc.Mean.Y","FFT.BodyAcc.Mean.Z","FFT.BodyAcc.Std.X","FFT.BodyAcc.Std.Y",
+"FFT.BodyAcc.Std.Z","FFT.BodyAccJerk.Mean.X","FFT.BodyAccJerk.Mean.Y","FFT.BodyAccJerk.Mean.Z","FFT.BodyAccJerk.Std.X","FFT.BodyAccJerk.Std.Y",
+"FFT.BodyAccJerk.Std.Z","FFT.BodyGyro.Mean.X","FFT.BodyGyro.Mean.Y","FFT.BodyGyro.Mean.Z","FFT.BodyGyro.Std.X","FFT.BodyGyro.Std.Y",
+"FFT.BodyGyro.Std.Z","FFT.BodyAccMag.Mean","FFT.BodyAccMag.Std","FFT.BodyBodyAccJerkMag.Mean","FFT.BodyBodyAccJerkMag.Std",
+"FFT.BodyBodyGyroMag.Mean","FFT.BodyBodyGyroMag.Std","FFT.BodyBodyGyroJerkMag.Mean","FFT.BodyBodyGyroJerkMag.Std","Activity"
+
+
+First column: Subject-> Integer
+last column : Activity -> Factor
+other columns: Numeric
+
+
+Tidy Mean dataset:
+
+Here i describe the dataset: "Tidy_Mean" with 3 columns.The script "run_analysis" creates this file.
+
+"Subject", "Activity", "Meansamples"
+
+First column:  Subject -> Integer
+Second column: Activity	-> factor
+last column: MeanSamples -> numeric
