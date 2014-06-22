@@ -24,8 +24,8 @@ The following variables: mean() & std() are used.
 
 How to use this script:
 
-Open the run_analysis.R script in R. Select the complete file and run it.
-The run_analysis.R will create 2 files: tidy.txt & tidy.mean.txt.
+Open the run_analysis.R script in Rstudio or use the R shell and run it.
+The run_analysis.R will create 2 files: tidy.txt & tidy.mean.txt in the same location.
 
 The exact steps of the file : run_analysis.r are described within the scriptfile.
 
